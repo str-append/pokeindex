@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+.navbar
+{
+  width: 95%;
+  font-family:'Comfortaa', cursive;
+  color: #e5011f;
+}
+nav
+{
+  text-align: right;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  text-decoration: none;
+  /* color: whitesmoke !important; */
+  font-size: 40px;
+  /* font-family: 'Kdam Thmor Pro', sans-serif; */
+  cursor: pointer;
+} 
+nav ul li button
+{
+  /* background:rgba(255, 255, 255, 0); */
+  background-color: #000000;
+  color: white;
+  border-radius: 9px;
+  height: 46px;
+  border: 0px;
+  font-size: 22px;
+  margin: 0px 9px;
+  cursor: pointer;
+  transform: scale(1);
+  text-decoration: none;
+  transition: 0.25s ease-in-out;
+  
+}
+nav ul li button:hover
+{
+  transform: scale(1.2);
+  color: rgb(255, 241, 255);
+  text-decoration: overline;
+}
